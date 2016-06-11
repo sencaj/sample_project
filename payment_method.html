@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Daily Smarty</title>
+
+        <!-- Bootstrap -->
+        <link href="vendor/bootstrap-3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/common/main.css" rel="stylesheet">
+        <link href="css/common/jquery.fancySelect.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    </head>
+    <body>
+         
+        <div class="bg np">
+            <div class="mask"></div>
+            <img src="images/common/bg.png" />
+        </div>
+        
+        <div class="bg2"></div>
+        
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="grey"></div>
+                   <a class="col-xs-3 logo pull-left" href="index.html"><img src="images/common/logo.png" alt="dailysmarty"><img class="logo-small" src="images/common/logo_small.png" alt="dailysmarty"></a>  
+                    <div class="col-xs-9 pull-left">
+                        <div class="col-xs-6 pull-left">
+                            <span class="icon icon-search"></span>
+                            <input type="text" placeholder="Search..."/>
+                        </div>
+                        <div class="col-xs-3 avatar pull-right">
+                            <a href="stats.html">
+                                <div class="mask"></div>
+                                <img src="images/common/avatar_image.png">
+                            </a>
+                            <strong>Welcome Jodi</strong>
+                            <a href="stats.html">View Accout</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-menu">
+            <div class="container">
+                <div class="row">
+                    <ul class="clearfix">
+                        <li class="col-xs-3">
+                            <a href="search.html">
+                                <span>Article</span>
+                            </a>
+                        </li>
+                        <li class="col-xs-3">
+                            <a href="categories.html">
+                                <span>Category</span>
+                            </a>
+                        </li>
+                        <li class="col-xs-3">
+                            <a href="stats.html">
+                                <span>Statistics</span>
+                            </a>
+                        </li>
+                        <li class="col-xs-3 active">
+                            <a href="billing.html">
+                                <span>Billing</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sub-menu" class="small">
+            <div class="container">
+                <div class="row">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-9 payment-method pull-left">
+                    <h1 class="col-xs-6 pull-left">New Payment Method</h1>
+                    <a href="billing.html" class="btn btn-default pull-right"><span>Back To Billing</span></a>
+                    <span class="icon icon-user-white"></span>
+                    <div class="clearfix"></div>
+                    
+                    <div class="form clearfix">
+                        <div class="form-group col-xs-6 pull-left clearfix">
+                            <input type="text" placeholder="First name">
+                            <span class="icon user-icon"></span>
+                        </div>
+                        <div class="form-group col-xs-6 pull-right clearfix">
+                            <input type="text" placeholder="Last Name">
+                            <span class="icon user-icon"></span>
+                        </div>
+                        <div class="form-group col-xs-12 clearfix">
+                            <input type="text" placeholder="Address">
+                            <span class="icon address-icon"></span>
+                        </div>
+                        <div class="form-group col-xs-6 pull-left clearfix">
+                            <input type="text" placeholder="City">
+                            <span class="icon city-icon"></span>
+                        </div>
+                        <div class="form-group col-xs-6 pull-right clearfix">
+                            <input type="text" placeholder="State">
+                            <span class="icon state-icon"></span>
+                        </div>
+                        <div class="form-group col-xs-6 pull-left clearfix">
+                            <input type="text" placeholder="Zip / Postal">
+                            <span class="icon zip-icon"></span>
+                        </div>
+                        <div class="form-group col-xs-6 pull-right clearfix">
+                            <select data-class="filter-select pull-right white" name="type" class="filter-month pull-right">
+                                <option value="usa">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="ca">Canada</option>
+                                <option value="fr">Frnace</option>
+                                <option value="gr">Germany</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="security clearfix">
+                        <span class="icon lock-icon"></span>
+                        <h2>Secure Credit Payment</h2>
+                        <p>This is a secure 128-bit SSL encrypted payment</p>
+                    </div>
+                    
+                    <div class="credit-info clearfix">
+                        <h2>Credit card information</h2>
+                        <img src="images/credit_cards.png" />
+                        <div class="clearfix"></div>
+                        
+                        <div class="form-group col-xs-6 pull-left clearfix">
+                            <input type="text" placeholder="Credit Card number">
+                        </div>
+                        <div class="form-group col-xs-6 pull-right clearfix">
+                            <input type="text" placeholder="Type">
+                        </div>
+                        <div class="form-group col-xs-4 pull-left clearfix">
+                            <select data-class="filter-select pull-right white" name="type" class="filter-month pull-right">
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="apr">Apr</option>
+                                <option value="may">May</option>
+                                <option value="jun">Jun</option>
+                                <option value="aug">Aug</option>
+                                <option value="sep">Sep</option>
+                                <option value="oct">Oct</option>
+                                <option value="nov">Nov</option>
+                                <option value="dec">Dec</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-xs-4 pull-left clearfix">
+                            <select data-class="filter-select pull-right white" name="type" class="filter-year pull-right">
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-xs-4 pull-right clearfix">
+                            <input type="text" placeholder="CVV2 Code">
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a href="#load-more" class="btn btn-default btn-orange pull-right"><span>Submit Secure Order</span></a>
+                        <img src="images/verified.png" class="pull-right">
+                        <img src="images/norton.png" class="pull-right">
+                    </div>
+                </div>
+                <div class="col-xs-3 author pull-right">
+                    <h1>Author</h1>
+                    <hr/>
+                    <div class="author-image">
+                        <div class="mask"></div>
+                        <img src="images/common/user.png"/>
+                        <div class="author-number">
+                            <h2>64</h2>
+                        </div>
+                    </div>
+                    <h2>Jodi Holzband</h2>
+                    <p>
+                        Austin-based food + blogger, support + social learning * communicator for @bloomfire <a href="#site">testyourthing.com</a>
+                    </p>
+                    <div class="social clearfix">
+                        <a href="#facebook" class="facebook"></a>
+                        <a href="#twitter" class="twitter"></a>
+                        <a href="#linkedin" class="linkedin"></a>
+                        <a href="#google" class="google"></a>
+                        <a href="#pinterest" class="pinterest"></a>
+                    </div>
+                    
+                    <h1>Author</h1>
+                    <hr/>
+                    <ul class="tags clearfix">
+                        <li class="col-xs-12">Technology</li>
+                        <li class="col-xs-6 pull-left">Politics</li>
+                        <li class="col-xs-6 pull-right">Business</li>
+                        <li class="col-xs-6 pull-left">Food</li>
+                        <li class="col-xs-6 pull-right">Art</li>
+                    </ul>
+                    
+                    <h1>Top 10 Articles</h1>
+                    <hr/>
+                    <ul class="top-articles">
+                        <li>
+                            <p class="pull-left">How outer space..</p>
+                            <p class="pull-right">1,233</p>
+                        </li>
+                        <li>
+                            <p class="pull-left">100 Years Of Aliens...</p>
+                            <p class="pull-right">63</p>
+                        </li>
+                        <li>
+                            <p class="pull-left">The Rise of Africa's</p>
+                            <p class="pull-right">55</p>
+                        </li>
+                        <li>
+                            <p class="pull-left">How Outer Space is...</p>
+                            <p class="pull-right">4</p>
+                        </li>
+                        <li>
+                            <p class="pull-left">How outer space..</p>
+                            <p class="pull-right">1,233</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer" class="blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="pull-left">
+                            <li><a href="index.html">Home</a>/</li>
+                            <li><a href="faq.html"  class="active">FAQ</a>/</li>
+                            <li><a  href="contact.html">Contact</a>/</li>
+                            <li><a href="affiliate.html">Affiliate</a>/</li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                        </ul>
+                        <p class="copyright pull-right">Copyright © 2015 <strong>Daily Smarty.</strong> All rights reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bootstrap -->
+        <script src="vendor/jquery/jquery-2.1.1.min.js"></script>
+        <script src="vendor/jquery/jquery.fancySelect.min.js"></script>
+        <script src="vendor/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                
+                $('.filter-month').fancySelect().on('change', function ()  {
+                    filter();
+                });
+                
+                $('.filter-year').fancySelect().on('change', function ()  {
+                    filter();
+                });
+                
+                $('.icon-user-white').click(function() {
+                    $("div.author").animate({
+                        right: "+=250"
+                    }, 1000, function() {
+                        // Animation complete.
+                    });
+                    $('div.bg2').animate({
+                        opacity: "show"
+                    }, "slow" );
+                });
+                
+                $('div.bg2').click(function() {
+                    $("div.author").animate({
+                        right: "-=250"
+                    }, 1000, function() {
+                        
+                    });
+                    $('div.bg2').animate({
+                        opacity: "hide"
+                    }, "slow" );
+                });
+                
+                
+                function filter () { /* get data from server */ }
+            });
+        </script>
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="vendor/bootstrap-3.3.2/js/html5shiv.js"></script>
+          <script src="vendor/bootstrap-3.3.2/js/respond.min.js"></script>
+        <![endif]-->
+        
+    </body>
+</html>
